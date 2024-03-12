@@ -19,7 +19,7 @@ RUN mkdir hacking \
  && cd ..
 RUN git config --global user.email "corneliars@uia.no" \
  && git config --global user.name "Cornelia" \
- && git config --global url."https://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:@github.com/".insteadOf "https://github.com" \
+ && git config --global url."https://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:@github.com/".insteadOf "https://github.com" \
  && mkdir -p github.com/corneliars/sem02v24
 USER root
 RUN curl -SL https://go.dev/dl/go1.21.7.linux-amd64.tar.gz \
